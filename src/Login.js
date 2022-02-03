@@ -12,12 +12,14 @@ function Login() {
         <div className='loginInput d-flex flex-column'>
             <InputGroup className='py-1 mb-3'>
                 <FormControl className='border border-danger bg-light'
+                    type='email'
                     placeholder="Email"
                     aria-label="Email"
                 />
             </InputGroup>
             <InputGroup className='py-1 mb-3'>
                 <FormControl className='border border-danger bg-light'
+                    type='password'
                     placeholder="Password"
                     aria-label="Password"
                 />
